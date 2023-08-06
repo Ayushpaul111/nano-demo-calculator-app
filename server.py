@@ -27,5 +27,6 @@ def subtract():
     response_content = f"Status code:200\nContent:{{ result: {result} }}"
     return response_content, 200, {'Content-Type':'text/plain'}
 
+
 if __name__ == '__main__':
     app.run(port=8080, host='0.0.0.0')
